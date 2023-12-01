@@ -34,7 +34,7 @@ public class PartyUNIX extends JavaPlugin implements Listener {
             List<Player> partyMembers = parties.get(player);
             if (partyMembers != null && !partyMembers.isEmpty()) {
                 for (Player partyMember : partyMembers) {
-                    partyMember.sendMessage("Лидер пати вышел из сервера. Пати было распущенно.");
+                    partyMember.sendMessage("Лидер пати вышел из сервера. Пати было распущенно");
                     partyLeaders.remove(partyMember);
                 }
                 parties.remove(player);
